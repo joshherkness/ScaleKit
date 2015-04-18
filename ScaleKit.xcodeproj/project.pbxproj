@@ -14,12 +14,13 @@
 		03D079CB1AE1A9D2001F6141 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D079CA1AE1A9D2001F6141 /* Images.xcassets */; };
 		03D079CE1AE1A9D2001F6141 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D079CC1AE1A9D2001F6141 /* LaunchScreen.xib */; };
 		03D079DA1AE1A9D2001F6141 /* ScaleKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D079D91AE1A9D2001F6141 /* ScaleKitTests.swift */; };
-		03D079EA1AE1A9F5001F6141 /* BasePitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D079E41AE1A9F5001F6141 /* BasePitch.swift */; };
 		03D079EB1AE1A9F5001F6141 /* MusicCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D079E51AE1A9F5001F6141 /* MusicCharacter.swift */; };
 		03D079EC1AE1A9F5001F6141 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D079E61AE1A9F5001F6141 /* Note.swift */; };
 		03D079ED1AE1A9F5001F6141 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D079E71AE1A9F5001F6141 /* Pitch.swift */; };
 		03D079EE1AE1A9F5001F6141 /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D079E81AE1A9F5001F6141 /* Scale.swift */; };
 		03D079EF1AE1A9F5001F6141 /* ScaleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D079E91AE1A9F5001F6141 /* ScaleType.swift */; };
+		03D079F21AE1B035001F6141 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D079E71AE1A9F5001F6141 /* Pitch.swift */; };
+		03D079F61AE1B167001F6141 /* PitchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D079F51AE1B167001F6141 /* PitchTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,12 +45,12 @@
 		03D079D31AE1A9D2001F6141 /* ScaleKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaleKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D079D81AE1A9D2001F6141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03D079D91AE1A9D2001F6141 /* ScaleKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleKitTests.swift; sourceTree = "<group>"; };
-		03D079E41AE1A9F5001F6141 /* BasePitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePitch.swift; sourceTree = "<group>"; };
 		03D079E51AE1A9F5001F6141 /* MusicCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicCharacter.swift; sourceTree = "<group>"; };
 		03D079E61AE1A9F5001F6141 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		03D079E71AE1A9F5001F6141 /* Pitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
 		03D079E81AE1A9F5001F6141 /* Scale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
 		03D079E91AE1A9F5001F6141 /* ScaleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleType.swift; sourceTree = "<group>"; };
+		03D079F51AE1B167001F6141 /* PitchTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PitchTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 			children = (
 				03D079D91AE1A9D2001F6141 /* ScaleKitTests.swift */,
 				03D079D71AE1A9D2001F6141 /* Supporting Files */,
+				03D079F51AE1B167001F6141 /* PitchTest.swift */,
 			);
 			path = ScaleKitTests;
 			sourceTree = "<group>";
@@ -131,7 +133,6 @@
 		03D079E31AE1A9F5001F6141 /* ScaleKit Framework */ = {
 			isa = PBXGroup;
 			children = (
-				03D079E41AE1A9F5001F6141 /* BasePitch.swift */,
 				03D079E51AE1A9F5001F6141 /* MusicCharacter.swift */,
 				03D079E61AE1A9F5001F6141 /* Note.swift */,
 				03D079E71AE1A9F5001F6141 /* Pitch.swift */,
@@ -244,7 +245,6 @@
 				03D079C61AE1A9D2001F6141 /* ViewController.swift in Sources */,
 				03D079EF1AE1A9F5001F6141 /* ScaleType.swift in Sources */,
 				03D079ED1AE1A9F5001F6141 /* Pitch.swift in Sources */,
-				03D079EA1AE1A9F5001F6141 /* BasePitch.swift in Sources */,
 				03D079C11AE1A9D2001F6141 /* AppDelegate.swift in Sources */,
 				03D079EB1AE1A9F5001F6141 /* MusicCharacter.swift in Sources */,
 				03D079C41AE1A9D2001F6141 /* ScaleKit.xcdatamodeld in Sources */,
@@ -257,7 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D079F21AE1B035001F6141 /* Pitch.swift in Sources */,
 				03D079DA1AE1A9D2001F6141 /* ScaleKitTests.swift in Sources */,
+				03D079F61AE1B167001F6141 /* PitchTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
