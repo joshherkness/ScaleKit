@@ -11,9 +11,19 @@ import XCTest
 
 class PitchTest: XCTestCase {
     
+    var testPitch: SKPitch!
+    
+    let englishDescription = "English Description"
+    let musicalDescription = "Musical Description"
+    let id = 5
+    let pitchType: SKPitchType = SKPitchType.Accidental
+    let linkedNaturalPitch: SKPitch = SKPitch.D()
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        self.testPitch = SKPitch(musicalDescription: self.musicalDescription, englishDescription: self.englishDescription, id: self.id, pitchType: self.pitchType, linkedNaturalPitch: self.linkedNaturalPitch)
     }
     
     override func tearDown() {
@@ -25,7 +35,7 @@ class PitchTest: XCTestCase {
     Tests if the pitch class can cunstruct a Pitch object.
     */
     func testCreatePitch() {
-    
+        XCTAssertNotNil(testPitch, "Pitch Created");
     }
     
     /**

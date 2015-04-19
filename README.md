@@ -66,15 +66,17 @@ Some things that **need** to be saved include:
 
 ## Class Hierarchy
   - ScaleKit
-    - Database
-      - Scale
-        - ScaleType
-          - ScaleCategory
-        - Note
-          - Octave
-          - Pitch
-            - PitchType
-	- Middleware
+    - SKDatabase - Responsible for storing data
+	  - SKRhythm
+	  - SKTempo
+      - SKScale
+        - SKScaleType
+          - SKScaleCategory
+        - SKNote
+          - SKOctave
+          - SKPitch
+            - SKPitchType
+	- SKManager - Responsible for logic and sound
 	  - Logic, possibly interactions with AudioKit
 
 ## Tasks: 
@@ -93,4 +95,5 @@ Scale Test | No
 Middleware Class | No
 AudioKit | No
 Cleaning | No
+Append "SK" to ScaleKit classes | No
 

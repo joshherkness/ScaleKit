@@ -14,8 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var pitch: Pitch = Pitch.ASharp()
-        var note: Note = Note(pitch: pitch, octave: Octave.Ten)
+        var pitch: SKPitch = SKPitch.ASharp()
+        var note: SKNote = SKNote(pitch: pitch, octave: SKOctave.Ten)
         
         println(note.midiValue)
         println(note.frequency)
